@@ -1,12 +1,113 @@
 body {
   background-image: url('./images/shattered-darker.jpg');
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
 }
 
 .App {
   text-align: center;
 }
+
+/* INTRO STYLING */
+
+.intro-container {
+  height: 90vh;
+}
+
+.intro-name {
+  font-family: "Merriweather", serif;
+  font-size: 250%;
+  margin: 20vh auto 15vh auto;
+  padding: 2%;
+  width: fit-content;
+  border: 5px solid black;
+  border-radius: 30%;
+}
+
+.intro-introduction {
+  font-family: "Merriweather", serif;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 150%;
+}
+
+/* SKILLS STYLING */
+
+.skills-container h1 {
+  font-family: 'merriweather', serif;
+  font-size: 250%;
+  margin: 20vh auto 10vh auto;
+  padding: 2%;
+  width: fit-content;
+  border: 5px solid black;
+  border-radius: 30%;
+}
+
+.skills-icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  /* border: 3px solid black; */
+  margin: 5vh auto 0 auto;
+  justify-content: space-evenly;
+}
+
+/* SKILL STYLING */
+
+.skill-container {
+  margin: 5vh;
+}
+
+.skill-container h3 {
+  font-family: 'merriweather', serif;
+  font-size: 3vh;
+}
+
+.skill-container img {
+  width: 15vh;
+  height: 15vh;
+}
+
+/* PROJECTS STYLING */
+
+.projects-container {
+  margin-top: 20vh;
+  height: 100vh;
+}
+
+.projects-container h1 {
+  font-family: 'merriweather', serif;
+  font-size: 250%;
+  padding: 2%;
+  width: fit-content;
+  border: 5px solid black;
+  border-radius: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15vh;
+}
+
+.projects-tony-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 60%;
+  /* border: 1px solid black; */
+  margin: 10vh auto;
+}
+
+.projects-tony-container img {
+  height: 300px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.tony-portfolio-description {
+  font-family: 'merriweather', serif;
+  font-size: 150%;
+}
+
 
 
 /* 

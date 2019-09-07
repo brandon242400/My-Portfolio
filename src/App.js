@@ -10,7 +10,7 @@ function App() {
     <div className='App'>
       <NavBar />
       <Intro />
-      <div id='skills-section1'></div>
+      <div id='skills-section'></div>
       <Skills />
       <div id='projects-section'></div>
       <Projects />

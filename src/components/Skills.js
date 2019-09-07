@@ -4,7 +4,7 @@ import Skill from './Skill';
 export default class Skills extends Component {
   render() {
     return (
-      <div className='skills-container' id='skills-section'>
+      <div className='skills-container'>
         <h1>Skills</h1>
         <div className='skills-icon-container'>
           <Skill icon={require('../images/github-logo.svg')} skillName='Git/GitHub' />

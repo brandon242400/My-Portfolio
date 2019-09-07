@@ -8,16 +8,18 @@ body {
   text-align: center;
 }
 
+
+
 /* INTRO STYLING */
 
 .intro-container {
-  height: 90vh;
+  height: 80vh;
 }
 
 .intro-name {
   font-family: "Merriweather", serif;
   font-size: 250%;
-  margin: 20vh auto 15vh auto;
+  margin: 10vh auto 15vh auto;
   padding: 2%;
   width: fit-content;
   border: 5px solid black;
@@ -32,12 +34,18 @@ body {
   font-size: 150%;
 }
 
+
+
 /* SKILLS STYLING */
+
+.skills-container {
+  min-width: 100vh;
+}
 
 .skills-container h1 {
   font-family: 'merriweather', serif;
   font-size: 250%;
-  margin: 20vh auto 10vh auto;
+  margin: 10vh auto 10vh auto;
   padding: 2%;
   width: fit-content;
   border: 5px solid black;
@@ -69,10 +77,12 @@ body {
   height: 15vh;
 }
 
+
+
 /* PROJECTS STYLING */
 
 .projects-container {
-  margin-top: 20vh;
+  margin-top: 10vh;
   height: 100vh;
 }
 
@@ -89,27 +99,59 @@ body {
 }
 
 .projects-tony-container {
+  /* border: 3px solid black; */
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  width: 60%;
-  /* border: 1px solid black; */
-  margin: 10vh auto;
+  justify-content: space-around;
 }
 
-.projects-tony-container img {
-  height: 300px;
+.projects-tony-pics {
+  /* width: fit-content; */
+  height: 350px;
+  /* width: 850px; */
+  /* border: 1px solid black; */
+  /* margin: 10vh auto; */
+}
+
+.projects-desktop-view {
+  width: 600px;
+  z-index: 1;
   border: 3px solid black;
-  border-radius: 10px;
+  border-radius: 1vw;
+}
+
+.projects-mobile-view {
+  width: 200px;
+  position: relative;
+  bottom: 200px;
+  left: 250px;
+  z-index: 3;
+  border: 3px solid black;
+  border-radius: 1vw;
 }
 
 .tony-portfolio-description {
   font-family: 'merriweather', serif;
-  font-size: 150%;
+  font-size: 125%;
+  text-align: start;
+  width: 400px;
+  height: fit-content;
+  /* border: 2px solid red; */
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: -250px;
 }
+
 
 
 
 /* 
 font-family: 'Merriweather', serif;
- */
+*/
+
+#skills-section {
+  /* margin-top: 20vh; */
+}
+
+#projects-section {
+  /* margin-top: 20vh; */
+}

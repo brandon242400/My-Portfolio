@@ -24,7 +24,7 @@ export default class NavBar extends Component {
         <a href='none' onClick={this.scrollToTop}>
           Intro
         </a>
-        <a href='#skills-section1'>
+        <a href='#skills-section'>
           Skills
         </a>
         <a href='#projects-section'>

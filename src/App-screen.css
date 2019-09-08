@@ -1,0 +1,140 @@
+@media (max-width: 800px) and (min-width: 401px) {
+
+  /* Intro styling @ 401px - 800px */
+
+  .intro-name {
+    font-size: 200%;
+    border: 3px solid black;
+  }
+
+  .intro-introduction {
+    font-size: 125%;
+  }
+
+  /* Skills styling @ 401px to 800px */
+
+  .skills-container h1 {
+    font-size: 200%;
+    border: 3px solid black;
+  }
+
+  .skills-icon-container {
+    width: 80%;
+  }
+
+  /* Skill styling @ 401px - 800px */
+
+  .skill-container h3 {
+    font-size: 110%;
+  }
+  
+  .skill-container img {
+    width: 90px;
+    height: 90px;
+  }
+
+  /* Project styling @ 401px - 800px */
+
+  .projects-container h1 {
+    font-size: 200%;
+    border: 3px solid black;
+  }
+
+  .projects-tony-pics {
+    height: 300px;
+  }
+
+  .projects-desktop-view {
+    width: 300px;
+    border: 2px solid black;
+  }
+
+  .projects-mobile-view {
+    width: 100px;
+    bottom: 100px;
+    left: 125px;
+    border: 2px solid black;
+  }
+
+  .tony-portfolio-description {
+    font-size: 75%;
+    width: 150px;
+    margin-left: 25px;
+    margin-top: 0;
+  }
+}
+
+
+
+@media (max-width: 400px) {
+
+  /* Intro styling @ < 400px */
+
+  .intro-name {
+    font-size: 150%;
+    border: 2px solid black;
+  }
+
+  .intro-introduction {
+    font-size: 100%;
+  }
+
+  /* Skills styling @ < 400px */
+  
+  .skills-container h1 {
+    font-size: 150%;
+    border: 2px solid black;
+  }
+  
+  .skills-icon-container {
+    width: 100%;
+  }
+
+  /* Skill styling @ < 400px */
+  
+  .skill-container h3 {
+    font-family: 'merriweather', serif;
+    font-size: 100%;
+  }
+  
+  .skill-container img {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* Projects styling @ < 400px */
+
+  .projects-tony-container {
+    flex-wrap: wrap;
+  }
+
+  .projects-container h1 {
+    font-size: 200%;
+    border: 3px solid black;
+  }
+
+  .projects-tony-pics {
+    height: 300px;
+  }
+
+  .projects-desktop-view {
+    width: 300px;
+    border: 2px solid black;
+  }
+
+  .projects-mobile-view {
+    width: 100px;
+    bottom: 100px;
+    left: 125px;
+    border: 2px solid black;
+  }
+
+  .tony-portfolio-description {
+    font-size: 75%;
+    width: 80vw;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}

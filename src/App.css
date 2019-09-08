@@ -1,6 +1,6 @@
 body {
   background-image: url('./images/shattered-darker.jpg');
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: cover;
 }
 
@@ -13,7 +13,7 @@ body {
 /* INTRO STYLING */
 
 .intro-container {
-  height: 80vh;
+  min-height: 80vh;
 }
 
 .intro-name {
@@ -39,7 +39,7 @@ body {
 /* SKILLS STYLING */
 
 .skills-container {
-  min-width: 100vh;
+  min-height: 120vh;
 }
 
 .skills-container h1 {
@@ -56,7 +56,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   width: 60%;
-  /* border: 3px solid black; */
   margin: 5vh auto 0 auto;
   justify-content: space-evenly;
 }
@@ -69,12 +68,12 @@ body {
 
 .skill-container h3 {
   font-family: 'merriweather', serif;
-  font-size: 3vh;
+  font-size: 125%;
 }
 
 .skill-container img {
-  width: 15vh;
-  height: 15vh;
+  width: 150px;
+  height: 150px;
 }
 
 
@@ -99,17 +98,12 @@ body {
 }
 
 .projects-tony-container {
-  /* border: 3px solid black; */
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .projects-tony-pics {
-  /* width: fit-content; */
   height: 350px;
-  /* width: 850px; */
-  /* border: 1px solid black; */
-  /* margin: 10vh auto; */
 }
 
 .projects-desktop-view {
@@ -135,10 +129,9 @@ body {
   text-align: start;
   width: 400px;
   height: fit-content;
-  /* border: 2px solid red; */
   margin-top: auto;
   margin-bottom: auto;
-  margin-left: -250px;
+  margin-left: 60px;
 }
 
 
@@ -147,11 +140,3 @@ body {
 /* 
 font-family: 'Merriweather', serif;
 */
-
-#skills-section {
-  /* margin-top: 20vh; */
-}
-
-#projects-section {
-  /* margin-top: 20vh; */
-}

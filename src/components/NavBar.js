@@ -14,7 +14,7 @@ export default class NavBar extends Component {
       left: 0,
       top: 0,
       behavior: 'smooth'
-    }
+    };
     window.scrollTo(scrollOptions);
   }
 
@@ -32,9 +32,6 @@ export default class NavBar extends Component {
         </a>
         <a href='#contact-section'>
           Contact
-        </a>
-        <a href='#' className='image-link'>
-          <img src={require('../images/github-logo.svg')} />
         </a>
       </Wrapper>
     )
@@ -61,7 +58,7 @@ const Wrapper = styled.div`
     float: left;
     color: #f2f2f2;
     text-align: center;
-    /* padding: 6px 16px; */
+    // padding: 6px 16px;
     text-decoration: none;
     width: 15%;
     height: 50px;
@@ -74,20 +71,6 @@ const Wrapper = styled.div`
     color: black;
     width: 18%;
     font-weight: bolder;
-  }
-
-  .image-link img {
-    width: 40px;
-    height: 40px;
-  }
-
-  .image-link {
-    width: 2vh;
-    height: 30px;
-  }
-
-  .image-link:hover {
-    width: 5%;
   }
 
   .active {

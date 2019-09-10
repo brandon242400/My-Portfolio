@@ -34,7 +34,7 @@ export default class NavBar extends Component {
           Contact
         </a>
       </Wrapper>
-    )
+    );
   }
 }
 
@@ -67,9 +67,14 @@ const Wrapper = styled.div`
   }
 
   a:hover {
+    overflow: hidden;
     background-color: #ddd;
     color: black;
     width: 18%;
     font-weight: bolder;
+  }
+
+  @media (max-width: 800px) {
+    display: none;
   }
 `;

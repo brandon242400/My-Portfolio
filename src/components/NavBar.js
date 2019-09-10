@@ -72,11 +72,4 @@ const Wrapper = styled.div`
     width: 18%;
     font-weight: bolder;
   }
-
-  .active {
-    background-color: #4caf50;
-    color: white;
-    font-weight: bolder;
-    width: 20% !important;
-  }
 `;

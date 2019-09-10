@@ -63,7 +63,7 @@ body {
 /* SKILL STYLING */
 
 .skill-container {
-  margin: 5vh;
+  margin: 5%;
 }
 
 .skill-container h3 {
@@ -82,7 +82,7 @@ body {
 
 .projects-container {
   margin-top: 10vh;
-  height: 100vh;
+  height: auto;
 }
 
 .projects-container h1 {
@@ -100,6 +100,9 @@ body {
 .projects-tony-container {
   display: flex;
   justify-content: space-evenly;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .projects-tony-pics {
@@ -130,7 +133,8 @@ body {
   width: 400px;
   height: fit-content;
   margin-top: auto;
-  margin-bottom: auto;
+  margin-bottom: 20vh;
+  /* ^^^^^^^^^^^^^^ */
   margin-left: 60px;
 }
 

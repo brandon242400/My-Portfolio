@@ -3,34 +3,46 @@ import styled from 'styled-components';
 import '../App.css';
 
 export default class NavBar extends Component {
-  constructor(props) {
-    super(props);
-    this.scrollToTop = this.scrollToTop.bind(this);
-  }
 
-  scrollToTop(e) {
+  /**
+   * Smoothly scrolls to the href of the link clicked.
+   * @param {Event being passed} e
+   */
+  scrollToElement(e) {
     e.preventDefault();
-    var scrollOptions = {
-      left: 0,
-      top: 0,
-      behavior: 'smooth'
-    };
-    window.scrollTo(scrollOptions);
+    if (e.target.href.indexOf('#') == -1) {
+      window.scrollTo({
+        left: 0,
+        top: 0,
+        behavior: 'smooth'
+      });
+    } else {
+      let name = e.target.href.slice(e.target.href.indexOf('#') + 1);
+      console.log(name);
+      e = document.getElementById(name);
+      var rect = e.getBoundingClientRect();
+
+      window.scrollBy({
+        left: 0,
+        top: rect.top,
+        behavior: 'smooth'
+      });
+    }
   }
 
   render() {
     return (
       <Wrapper>
-        <a href='none' onClick={this.scrollToTop}>
+        <a href='none' onClick={this.scrollToElement}>
           Intro
         </a>
-        <a href='#skills-section'>
+        <a href='#skills-section' onClick={this.scrollToElement}>
           Skills
         </a>
-        <a href='#projects-section'>
+        <a href='#projects-section' onClick={this.scrollToElement}>
           Projects
         </a>
-        <a href='#contact-section'>
+        <a href='#contact-section' onClick={this.scrollToElement}>
           Contact
         </a>
       </Wrapper>

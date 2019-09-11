@@ -1,0 +1,9 @@
+@keyframes projects-pics-slide {
+  from {
+    left: -1100px;
+  }
+
+  to {
+    left: 0;
+  }
+}

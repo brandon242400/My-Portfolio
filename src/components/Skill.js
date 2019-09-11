@@ -13,7 +13,7 @@ export default class Skill extends Component {
   render() {
     return (
       <div className='skill-container'>
-        <img src={this.state.icon} />
+        <img src={this.state.icon} alt={this.state.skillName + ' logo'} />
         <h3>{this.state.skillName}</h3>
       </div>
     );

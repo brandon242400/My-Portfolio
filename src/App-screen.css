@@ -1,3 +1,6 @@
+/* The majority of my responsive styling is kept in this folder to avoid too much clutter in App.css */
+/* Some styles that needed more specific parameteres were left in App.css */
+
 @media (max-width: 800px) and (min-width: 401px) {
 
   /* Intro styling @ 401px - 800px */
@@ -29,8 +32,8 @@
   }
 
   .skill-container img {
-    width: 90px;
-    height: 90px;
+    width: 75px;
+    height: 75px;
   }
 
   .projects-container h1 {
@@ -73,8 +76,8 @@
   }
 
   .skill-container img {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
   }
 
   .projects-container h1 {
@@ -88,7 +91,6 @@
 @media (max-width: 1200px) and (min-width: 800px) {
   .projects-tony-container {
     width: 800px;
-    border: 1px solid black;
   }
 
   .projects-tony-pics {
@@ -97,6 +99,7 @@
 
   .projects-desktop-view {
     width: 400px;
+    border: 2px solid black;
   }
 
   .projects-mobile-view {
@@ -104,12 +107,13 @@
     width: 20%;
     margin-top: -150px;
     margin-left: 60%;
+    border: 2px solid black;
   }
 
   .tony-portfolio-description {
     font-size: 100%;
     width: 250px;
-    margin-left: 60px;
+    margin-left: 0px;
   }
 }
 

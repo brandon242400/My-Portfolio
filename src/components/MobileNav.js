@@ -18,14 +18,30 @@ export default class MobileNav extends Component {
     }));
   }
 
-  scrollToTop(e) {
+  /**
+     * Smoothly scrolls to the href of the link clicked.
+     * @param {Event being passed} e
+     */
+  scrollToElement(e) {
     e.preventDefault();
-    var scrollOptions = {
-      left: 0,
-      top: 0,
-      behavior: 'smooth'
-    };
-    window.scrollTo(scrollOptions);
+    if (e.target.href.indexOf('#') == -1) {
+      window.scrollTo({
+        left: 0,
+        top: 0,
+        behavior: 'smooth'
+      });
+    } else {
+      let name = e.target.href.slice(e.target.href.indexOf('#') + 1);
+      console.log(name);
+      e = document.getElementById(name);
+      var rect = e.getBoundingClientRect();
+
+      window.scrollBy({
+        left: 0,
+        top: rect.top,
+        behavior: 'smooth'
+      });
+    }
   }
 
   render() {
@@ -36,19 +52,19 @@ export default class MobileNav extends Component {
       <Wrapper onClick={this.handleClick} >
         <img src={require('../images/hamburger-button.png')} className='hamburger' alt='' />
         <div className='close-nav' ></div>
-        <a href='/' onClick={this.scrollToTop}>
+        <a href='none' onClick={this.scrollToElement}>
           Intro
         </a>
         <br />
-        <a href='#skills-section'>
+        <a href='#skills-section' onClick={this.scrollToElement}>
           Skills
         </a>
         <br />
-        <a href='#projects-section'>
+        <a href='#projects-section' onClick={this.scrollToElement}>
           Projects
         </a>
         <br />
-        <a href='#contact-section'>
+        <a href='#contact-section' onClick={this.scrollToElement}>
           Contact
         </a>
       </Wrapper>

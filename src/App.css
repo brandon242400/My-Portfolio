@@ -28,10 +28,16 @@ body {
 
 .intro-introduction {
   font-family: "Merriweather", serif;
-  width: 60%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
-  font-size: 150%;
+  font-size: 200%;
+}
+
+@media (max-width: 1100px) {
+  .intro-introduction {
+    font-size: 175%;
+  }
 }
 
 
@@ -76,13 +82,20 @@ body {
   height: 150px;
 }
 
+@media (max-width: 1100px) and (min-width: 801px) {
+  .skill-container img {
+    width: 110px;
+    height: 110px;
+  }
+}
+
 
 
 /* PROJECTS STYLING */
 
 .projects-container {
   margin-top: 10vh;
-  height: auto;
+  min-height: 90vh;
 }
 
 .projects-container h1 {
@@ -107,6 +120,9 @@ body {
 
 .projects-tony-pics {
   height: 350px;
+  position: relative;
+  animation: projects-pics-slide 1s;
+  animation-fill-mode: forwards;
 }
 
 .projects-desktop-view {
@@ -133,14 +149,52 @@ body {
   width: 400px;
   height: fit-content;
   margin-top: auto;
-  margin-bottom: 20vh;
-  /* ^^^^^^^^^^^^^^ */
+  margin-bottom: auto;
   margin-left: 60px;
 }
 
 
 
+/* CONTACT STYLING */
+
+.contact-container {
+  min-height: 100vh;
+  margin-top: 10vh;
+}
+
+.contact-container h1 {
+  font-family: 'merriweather', serif;
+  font-size: 250%;
+  padding: 2%;
+  width: fit-content;
+  border: 5px solid black;
+  border-radius: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15vh;
+}
 
 /* 
 font-family: 'Merriweather', serif;
+
+Giving the divs below some physical attributes so they behave more 
+consistently as locations for the navigation bar to use.
 */
+
+#skills-section {
+  width: 80%;
+  opacity: 0;
+  height: 1px;
+}
+
+#projects-section {
+  width: 80%;
+  opacity: 0;
+  height: 1px;
+}
+
+#contact-section {
+  width: 80%;
+  opacity: 0;
+  height: 1px;
+}

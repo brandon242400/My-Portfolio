@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class Intro extends Component {
   render() {
     return (
-      <div className='intro-container' id='intro-section'>
+      <div className='intro-container'>
         <h1 className='intro-name'>
           Welcome
 			  </h1>

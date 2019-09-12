@@ -17,7 +17,7 @@ body {
 }
 
 .intro-name {
-  font-family: "Merriweather", serif;
+  font-family: "Expletus Sans", cursive;
   font-size: 250%;
   margin: 10vh auto 15vh auto;
   padding: 2%;
@@ -27,11 +27,17 @@ body {
 }
 
 .intro-introduction {
-  font-family: "Merriweather", serif;
+  font-family: 'Arima Madurai', cursive;
+  background-color: #555;
+  color: #dddddd;
+  padding: 5%;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
   font-size: 200%;
+  border: 1px solid black;
+  border-radius: 300px 0px 300px 0px;
+  opacity: 1;
 }
 
 @media (max-width: 1100px) {
@@ -49,7 +55,7 @@ body {
 }
 
 .skills-container h1 {
-  font-family: 'merriweather', serif;
+  font-family: 'Expletus Sans', cursive;
   font-size: 250%;
   margin: 10vh auto 10vh auto;
   padding: 2%;
@@ -73,7 +79,7 @@ body {
 }
 
 .skill-container h3 {
-  font-family: 'merriweather', serif;
+  font-family: 'Expletus Sans', cursive;
   font-size: 125%;
 }
 
@@ -99,7 +105,7 @@ body {
 }
 
 .projects-container h1 {
-  font-family: 'merriweather', serif;
+  font-family: 'Expletus Sans', cursive;
   font-size: 250%;
   padding: 2%;
   width: fit-content;
@@ -143,7 +149,7 @@ body {
 }
 
 .tony-portfolio-description {
-  font-family: 'merriweather', serif;
+  font-family: 'Arima Madurai', cursive;
   font-size: 125%;
   text-align: start;
   width: 400px;
@@ -163,7 +169,7 @@ body {
 }
 
 .contact-container h1 {
-  font-family: 'merriweather', serif;
+  font-family: 'Expletus Sans', cursive;
   font-size: 250%;
   padding: 2%;
   width: fit-content;
@@ -175,7 +181,7 @@ body {
 }
 
 /* 
-font-family: 'Merriweather', serif;
+font-family: 'Arima Madurai', cursive;
 
 Giving the divs below some physical attributes so they behave more 
 consistently as locations for the navigation bar to use.

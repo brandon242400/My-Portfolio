@@ -24,7 +24,7 @@ export default class MobileNav extends Component {
      */
   scrollToElement(e) {
     e.preventDefault();
-    if (e.target.href.indexOf('#') == -1) {
+    if (e.target.href.indexOf('#') === -1) {
       window.scrollTo({
         left: 0,
         top: 0,

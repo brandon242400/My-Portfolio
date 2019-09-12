@@ -10,7 +10,7 @@ export default class NavBar extends Component {
    */
   scrollToElement(e) {
     e.preventDefault();
-    if (e.target.href.indexOf('#') == -1) {
+    if (e.target.href.indexOf('#') === -1) {
       window.scrollTo({
         left: 0,
         top: 0,
@@ -66,7 +66,7 @@ const Wrapper = styled.div`
   z-index: 5;
 
   a {
-    font-family: 'Merriweather', serif;
+    font-family: 'Expletus Sans', serif;
     float: left;
     color: #f2f2f2;
     text-align: center;

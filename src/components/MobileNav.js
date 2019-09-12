@@ -115,7 +115,7 @@ function getNotClicked() {
 
       a {
         color: white;
-        font-family: 'Merriweather', serif;
+        font-family: 'Abril Fatface', cursive;
         font-size: 0em;
         border-radius: 20px;
         background-color: #111;
@@ -199,7 +199,7 @@ function getClicked() {
 
       a {
         color: white;
-        font-family: 'Merriweather', serif;
+        font-family: 'Abril Fatface', cursive;
         font-size: 0em;
         border-radius: 20px;
         background-color: #111;

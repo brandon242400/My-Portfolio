@@ -4,7 +4,7 @@ export default class Projects extends Component {
   render() {
     return (
       <div className='projects-container'>
-        <h1>Projects</h1>
+        <h2>Projects</h2>
         <div className='projects-tony-container'>
           <div className='projects-tony-pics'>
             <a href='#'>

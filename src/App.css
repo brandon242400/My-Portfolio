@@ -18,26 +18,23 @@ body {
 
 .intro-name {
   font-family: "Expletus Sans", cursive;
-  font-size: 250%;
+  font-size: 350%;
   margin: 10vh auto 15vh auto;
   padding: 2%;
   width: fit-content;
-  border: 5px solid black;
-  border-radius: 30%;
 }
 
 .intro-introduction {
-  font-family: 'Arima Madurai', cursive;
-  background-color: #555;
-  color: #dddddd;
-  padding: 5%;
+  font-family: 'Abril Fatface', cursive;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
   font-size: 200%;
-  border: 1px solid black;
-  border-radius: 300px 0px 300px 0px;
-  opacity: 1;
+  padding: 5%;
+  border: 3px solid black;
+  background-color: #333;
+  color: white;
+  opacity: 0.5;
 }
 
 @media (max-width: 1100px) {
@@ -54,14 +51,12 @@ body {
   min-height: 120vh;
 }
 
-.skills-container h1 {
+.skills-container h2 {
   font-family: 'Expletus Sans', cursive;
   font-size: 250%;
   margin: 10vh auto 10vh auto;
   padding: 2%;
   width: fit-content;
-  border: 5px solid black;
-  border-radius: 30%;
 }
 
 .skills-icon-container {
@@ -79,7 +74,7 @@ body {
 }
 
 .skill-container h3 {
-  font-family: 'Expletus Sans', cursive;
+  font-family: 'Abril Fatface', cursive;
   font-size: 125%;
 }
 
@@ -104,13 +99,11 @@ body {
   min-height: 90vh;
 }
 
-.projects-container h1 {
+.projects-container h2 {
   font-family: 'Expletus Sans', cursive;
   font-size: 250%;
   padding: 2%;
   width: fit-content;
-  border: 5px solid black;
-  border-radius: 30%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 15vh;
@@ -149,7 +142,7 @@ body {
 }
 
 .tony-portfolio-description {
-  font-family: 'Arima Madurai', cursive;
+  font-family: 'Abril Fatface', cursive;
   font-size: 125%;
   text-align: start;
   width: 400px;
@@ -168,20 +161,18 @@ body {
   margin-top: 10vh;
 }
 
-.contact-container h1 {
+.contact-container h2 {
   font-family: 'Expletus Sans', cursive;
   font-size: 250%;
   padding: 2%;
   width: fit-content;
-  border: 5px solid black;
-  border-radius: 30%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 15vh;
 }
 
 /* 
-font-family: 'Arima Madurai', cursive;
+font-family: 'Abril Fatface', cursive;
 
 Giving the divs below some physical attributes so they behave more 
 consistently as locations for the navigation bar to use.

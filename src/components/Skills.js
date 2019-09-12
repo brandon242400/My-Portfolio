@@ -5,7 +5,7 @@ export default class Skills extends Component {
   render() {
     return (
       <div className='skills-container'>
-        <h1>Skills</h1>
+        <h2>Skills</h2>
         <div className='skills-icon-container'>
           <Skill icon={require('../images/github-logo.svg')} skillName='Git/GitHub' />
           <Skill icon={require('../images/react-logo.svg')} skillName='React' />

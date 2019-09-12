@@ -4,7 +4,6 @@ import NavBar from './components/NavBar';
 import MobileNav from './components/MobileNav';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-import Contact from './components/Contact';
 import './App.css';
 import './App-screen.css';
 import './App-animations.css';
@@ -19,8 +18,6 @@ function App() {
       <Skills />
       <div id='projects-section'></div>
       <Projects />
-      <div id='contact-section'></div>
-      <Contact />
     </div>
   );
 }

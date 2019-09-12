@@ -34,16 +34,13 @@ export default class NavBar extends Component {
     return (
       <Wrapper>
         <a href='none' onClick={this.scrollToElement}>
-          Intro
+          Welcome
         </a>
         <a href='#skills-section' onClick={this.scrollToElement}>
           Skills
         </a>
         <a href='#projects-section' onClick={this.scrollToElement}>
           Projects
-        </a>
-        <a href='#contact-section' onClick={this.scrollToElement}>
-          Contact
         </a>
       </Wrapper>
     );
@@ -57,7 +54,7 @@ const Wrapper = styled.div`
   overflow: hidden;
   display: flex;
   justify-content: space-evenly;
-  height: 5vh;
+  height: 50px;
   width: 100%;
   position: fixed;
   left: 0;
@@ -66,25 +63,26 @@ const Wrapper = styled.div`
   z-index: 5;
 
   a {
-    font-family: 'Expletus Sans', serif;
+    font-family: 'Roboto', sans-serif;
     float: left;
     color: #f2f2f2;
     text-align: center;
-    // padding: 6px 16px;
     text-decoration: none;
-    width: 15%;
+    padding-top: 5px;
+    width: 20%;
     height: 50px;
-    font-size: 4vh;
+    font-size: 200%;
     transition: all 0.25s;
   }
 
   a:hover {
-    background-color: #ddd;
+    background-color: #fff;
     color: black;
-    width: 18%;
+    font-weight: bolder;
+    width: 25%;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 799px) {
     display: none;
   }
 `;

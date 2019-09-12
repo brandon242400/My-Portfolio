@@ -53,7 +53,7 @@ export default class MobileNav extends Component {
         <img src={require('../images/hamburger-button.png')} className='hamburger' alt='' />
         <div className='close-nav' ></div>
         <a href='none' onClick={this.scrollToElement}>
-          Intro
+          Welcome
         </a>
         <br />
         <a href='#skills-section' onClick={this.scrollToElement}>
@@ -62,10 +62,6 @@ export default class MobileNav extends Component {
         <br />
         <a href='#projects-section' onClick={this.scrollToElement}>
           Projects
-        </a>
-        <br />
-        <a href='#contact-section' onClick={this.scrollToElement}>
-          Contact
         </a>
       </Wrapper>
     );
@@ -90,9 +86,9 @@ function getNotClicked() {
       width: 40vw;
       max-width: 40vw;
       max-height: 50vh;
-      animation: shrink .5s;
+      animation: shrink .35s;
       animation-fill-mode: forwards;
-      animation-delay: 0.25s;
+      // animation-delay: 0.25s;
 
       @keyframes shrink {
         from {
@@ -115,7 +111,7 @@ function getNotClicked() {
 
       a {
         color: white;
-        font-family: 'Abril Fatface', cursive;
+        font-family: 'Roboto', sans-serif;
         font-size: 0em;
         border-radius: 20px;
         background-color: #111;
@@ -173,7 +169,7 @@ function getClicked() {
       display: flex;
       flex-direction: column;
       align-items: center;
-      animation: grow .5s;
+      animation: grow .35s;
       animation-fill-mode: forwards;
       height: 15vw;
       width: 15vw;
@@ -199,15 +195,15 @@ function getClicked() {
 
       a {
         color: white;
-        font-family: 'Abril Fatface', cursive;
+        font-family: 'Roboto', sans-serif;
         font-size: 0em;
         border-radius: 20px;
         background-color: #111;
         margin-top: auto;
         margin-bottom: auto;
-        animation: slide-in 0.5s;
+        animation: slide-in 0.35s;
         animation-fill-mode: forwards;
-        animation-delay: 0.25s;
+        animation-delay: 0.15s;
       }
 
       @keyframes slide-in {

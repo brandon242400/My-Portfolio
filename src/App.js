@@ -4,6 +4,7 @@ import NavBar from './components/NavBar';
 import MobileNav from './components/MobileNav';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import NavLinks from './components/NavLinks';
 import './App.css';
 import './App-screen.css';
 import './App-animations.css';
@@ -13,6 +14,7 @@ function App() {
     <div className='App'>
       <NavBar />
       <MobileNav />
+      <NavLinks />
       <Intro />
       <div id='skills-section'></div>
       <Skills />

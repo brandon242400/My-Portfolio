@@ -32,7 +32,6 @@ export default class MobileNav extends Component {
       });
     } else {
       let name = e.target.href.slice(e.target.href.indexOf('#') + 1);
-      console.log(name);
       e = document.getElementById(name);
       var rect = e.getBoundingClientRect();
 
@@ -100,8 +99,8 @@ function getNotClicked() {
         to {
           width: 15vw;
           height: 15vw;
-          max-width: 75px;
-          max-height: 75px;
+          max-width: 60px;
+          max-height: 60px;
         }
       }
 
@@ -123,8 +122,8 @@ function getNotClicked() {
         opacity: 0;
         width: 13vw;
         height: 13vw;
-        max-width: 65px;
-        max-height: 65px;
+        max-width: 55px;
+        max-height: 55px;
         margin: auto auto;
         animation: fade-in 0.25s;
         animation-fill-mode: forwards;
@@ -253,8 +252,8 @@ function getInitial() {
       z-index: 5;
       height: 15vw;
       width: 15vw;
-      max-width: 75px;
-      max-height: 75px;
+      max-width: 60px;
+      max-height: 60px;
       min-width: 25px;
       min-height: 25px;
 
@@ -269,8 +268,8 @@ function getInitial() {
       .hamburger {
         width: 13vw;
         height: 13vw;
-        max-width: 65px;
-        max-height: 65px;
+        max-width: 55px;
+        max-height: 55px;
         margin: auto auto;
       }
 

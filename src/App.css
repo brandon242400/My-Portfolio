@@ -127,8 +127,6 @@ body {
 .projects-tony-pics {
   height: 350px;
   position: relative;
-  animation: projects-pics-slide 1s;
-  animation-fill-mode: forwards;
 }
 
 .projects-desktop-view {

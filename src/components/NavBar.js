@@ -18,7 +18,6 @@ export default class NavBar extends Component {
       });
     } else {
       let name = e.target.href.slice(e.target.href.indexOf('#') + 1);
-      console.log(name);
       e = document.getElementById(name);
       var rect = e.getBoundingClientRect();
 

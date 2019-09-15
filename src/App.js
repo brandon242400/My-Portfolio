@@ -5,6 +5,7 @@ import MobileNav from './components/MobileNav';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import NavLinks from './components/NavLinks';
+import Footer from './components/Footer';
 import './App.css';
 import './App-screen.css';
 import './App-animations.css';
@@ -20,6 +21,8 @@ function App() {
       <Skills />
       <div id='projects-section'></div>
       <Projects />
+      <div style={{ width: 100 + '%', height: 1 + 'px', opacity: 0 }}></div>
+      <Footer />
     </div>
   );
 }
